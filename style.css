@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form{
+    width: 850px;
+    height: 500px;
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+}
+
+.main-logo{
+    width: 150px;
+    height: 80px;
+}
+
+.form h1{
+    font-family: sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+
+.form p{
+    position: relative;
+    left: 10px;
+    font-family: sans-serif;
+    color: #292929;
+}
+
+.name-area input{
+    width: 195px;
+    height: 18px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: 1px solid #a3a3a3;
+}
+
+.username-area{
+    top: 20px;
+    position: relative;
+}
+
+.username-area input{
+    width: 450px;
+    height: 18px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #a3a3a3;
+    
+}
+
+
+#email-area{
+    color: #0084ff;
+    font-size: 18px;
+}
+
+#email-area:hover{
+    cursor: pointer;
+}
+
+.password-area input{
+    width: 195px;
+    height: 18px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #a3a3a3;
+}
+
+input{
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.fa-eye{
+    color: #5e5e5e;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.fa-eye:hover{
+    cursor: pointer;
+}
+
+.next-btn{
+    display: flex;
+    align-items: center;
+    
+}
+
+.next-btn button{
+    font-size: 20px;
+    color: white;
+    background-color: #036ffd;
+    padding: 10px 15px;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    height: 40px;
+    left: 250px;
+    position: relative;
+}
+
+.next-btn button:hover{
+    
+    cursor: pointer;
+}
+
+.img-main{
+    position: absolute;
+    top: 170px;
+    left: 815px;
+    text-align: center;
+}
+
+.img-main p{
+   font-family: sans-serif;
+   position: relative;
+   
+}
